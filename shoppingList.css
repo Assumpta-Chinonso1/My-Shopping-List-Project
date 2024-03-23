@@ -72,26 +72,6 @@ header h1{
     
 }
 
-
-  ul {
-  margin: 10px; 
-  padding: 0; 
-  list-style-type: none;
-
-    }
-
-
- li {
-    width: 100%;
-    font-size: 18px;
-    margin-bottom: 15px;
-    padding: 5px;
-    border: 1px solid #ded1d1;
-    border-radius: 12px;
-    outline: none;
-    display: flex;   
-}
-
 .remove-item {
     background-color: transparent;
     border: none;
@@ -114,6 +94,29 @@ header h1{
   .btn-clear:hover {
     background-color: #660909;
   }
+
+
+
+  ul {
+  margin: 10px; 
+  padding: 0; 
+  list-style-type: none;
+
+    }
+
+
+ li {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid #ded1d1;
+    border-radius: 12px;
+    outline: none;
+    display: flex;   
+}
+
+
   
  
 
