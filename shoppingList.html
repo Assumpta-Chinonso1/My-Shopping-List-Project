@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--- <link rel="stylesheet" href="https://fontawesome.com/icons/xmark?f=classic&s=solid"> -->
+   <link rel="stylesheet" href="shoppingList.css">
+    
+    <link rel="stylesheet" href="shoppingList.css">
+    <title>My Shopping List</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+       <img src="shoppingList.jpg" alt=""/>
+       <h1>Shopping List</h1>
+
+        </header>
+      <form id="form-item">
+     <div class="form-control">
+      <input 
+      type="text"
+      class="form-input"
+      id="item-input"
+      name="item"
+      placeholder="Enter Item"/>
+
+     </div>
+
+     <div class="form-control">
+        <button type="Submit" class="btn">
+        <i class="fa-solid fa-plus"> Add Items</i>
+    </button>
+     </div>
+
+        <div class="filter">
+            <input 
+            type="text"
+            class="form-input-filter"
+            id="filter"
+            placeholder="Filter Items"/>
+        </div>
+
+         <ul id="item-list" class="items">
+
+            <li>
+                Fish
+                <button class="remove-item btn-links text-red" >
+                    <i class="fa-solid fa-xmark"></i>
+
+                </button>
+            </li>
+            
+            <li>
+                Noddles
+                <button class="remove-item btn-links text-red" >
+                    <i class="fa-solid fa-xmark"></i> 
+                </button>
+            </li>
+
+            <li>
+                Air Freshner
+                <button class="remove-item btn-links text-red" >
+                    <i class="fa-solid fa-xmark"></i> 
+                </button>
+            </li>
+
+            <li>
+                Bathing Soap
+                <button class="remove-item btn-links text-red" >
+                    <i class="fa-solid fa-xmark"></i> 
+                </button>
+            </li>
+
+            <li>
+                Spagehetti
+                <button class="remove-item btn-links text-red" >
+                    <i class="fa-solid fa-xmark"></i> 
+                </button>
+            </li>
+
+            <li>
+                Roll on
+                <button class="remove-item btn-links text-red" >
+                    <i class="fa-solid fa-xmark"> </i>
+                </button>
+            </li>
+
+         <button id= "clear"class="btn-clear">Clear All</button>
+    </div>
+    <script src="https://kit.fontawesome.com/31e4361ee7.js" crossorigin="anonymous"></script> 
+    <script src="shoppingList.js"></script>
+</body>
+</html>
+
+
