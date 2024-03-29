@@ -124,7 +124,7 @@ let isEditMode = false;
 
          function setItemToEdit(item) {
             isEditMode = true;
-                
+            
             itemList.querySelectorAll('li').forEach((i) => i.classList.remove('edit-mode'))
 
             item.classList.add('edit-mode')
